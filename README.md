@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
-  <img src="https://img.shields.io/badge/AI_Motoru-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/AI%20Motoru-Ollama-000000?style=for-the-badge" alt="Ollama" />
   <img src="https://img.shields.io/badge/Kod-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Vanilla JS" />
   <img src="https://img.shields.io/badge/Manifest-V3-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
   <img src="https://img.shields.io/badge/Lisans-MIT-green?style=for-the-badge" alt="MIT License" />
@@ -15,7 +15,6 @@
 
 <p align="center">
   <a href="#-özellikler">Özellikler</a> •
-  <a href="#-ekran-görüntüleri">Ekran Görüntüleri</a> •
   <a href="#-ön-gereksinimler">Ön Gereksinimler</a> •
   <a href="#-kurulum">Kurulum</a> •
   <a href="#-kullanım">Kullanım</a> •
@@ -71,20 +70,6 @@ GitHub bir Single Page Application'dır. Bu eklenti bunu kusursuz yönetir:
 - Uzun analiz sonuçları için **tam ekran (fullscreen) modal**
 - Panel aç/kapa için **Floating Action Button (FAB)**
 - Dahili **Vanilla JS Markdown renderer** (kalın, italik, başlıklar, kod blokları, listeler)
-
----
-
-## 📸 Ekran Görüntüleri
-
-> 📌 **Not:** Aşağıdaki yer tutucuları gerçek ekran görüntüleriyle değiştirin.
-
-| Dosya Modu | Repo Modu |
-|------------|-----------|
-| *[Dosya Modu Ekran Görüntüsü — Aksiyon butonları ve analiz paneli]* | *[Repo Modu Ekran Görüntüsü — Depo analiz sonucu]* |
-
-| Tam Ekran Modal | Detaylı Açıklama |
-|-----------------|------------------|
-| *[Tam Ekran Modal Ekran Görüntüsü — Genişletilmiş analiz]* | *[Detaylı Açıklama Ekran Görüntüsü — Progressive Disclosure]* |
 
 ---
 
