@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub AI Code Assistant",
+    "version": "1.0",
+    "description": "GitHub için Local LLM destekli kod asistanı.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:11434/*",
+        "http://localhost:11434/*",
+        "*://*.github.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.github.com/*"
+            ],
+            "js": [
+                "utils/markdown.js",
+                "utils/github.js",
+                "core/prompts.js",
+                "ui/panel.js",
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

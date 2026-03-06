@@ -1,0 +1,49 @@
+# ============================================
+# GitHub AI Code Assistant — Gereksinimler
+# ============================================
+#
+# Bu proje saf (Vanilla) JavaScript ile yazılmış bir
+# Chrome Extension (Manifest V3) eklentisidir.
+# Node.js (npm) veya Python (pip) bağımlılığı YOKTUR.
+#
+# ============================================
+# SİSTEM GEREKSİNİMLERİ
+# ============================================
+#
+# 1. Chrome veya Chromium tabanlı tarayıcı
+#    (Chrome, Edge, Brave, Arc vb.)
+#
+# 2. Ollama — Yerel LLM Motoru
+#    İndirme: https://ollama.com/download
+#
+# ============================================
+# MODEL KURULUMU
+# ============================================
+#
+# Ollama yüklendikten sonra terminalde:
+#
+#   ollama pull llama3
+#     veya
+#   ollama pull gpt-oss:120b-cloud
+#     veya
+#   ollama pull mistral
+#
+# ============================================
+# ⚠️  KRİTİK: CORS AYARI (ZORUNLU)
+# ============================================
+#
+# Eklentinin Ollama ile konuşabilmesi için
+# OLLAMA_ORIGINS ortam değişkeni ayarlanmalıdır:
+#
+# --- Windows (PowerShell) ---
+#   $env:OLLAMA_ORIGINS="*"
+#   ollama serve
+#
+# --- Windows (CMD) ---
+#   set OLLAMA_ORIGINS=* && ollama serve
+#
+# --- macOS / Linux ---
+#   OLLAMA_ORIGINS="*" ollama serve
+#
+# Bu ayar yapılmazsa eklenti 403 (Forbidden) hatası alır.
+# ============================================
