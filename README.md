@@ -3,7 +3,6 @@
   <img src="https://img.shields.io/badge/AI%20Motoru-Ollama-000000?style=for-the-badge" alt="Ollama" />
   <img src="https://img.shields.io/badge/Kod-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Vanilla JS" />
   <img src="https://img.shields.io/badge/Manifest-V3-orange?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Manifest V3" />
-  <img src="https://img.shields.io/badge/Lisans-MIT-green?style=for-the-badge" alt="MIT License" />
 </p>
 
 <h1 align="center">🤖 GitHub AI Code Assistant</h1>
@@ -266,13 +265,15 @@ Katkılarınızı bekliyoruz! Başlamak için:
 
 ---
 
-## 📄 Lisans
-
-Bu proje **MIT Lisansı** altında lisanslanmıştır — detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
----
-
 <p align="center">
   Gizliliğine önem veren geliştiriciler için ❤️ ile yapıldı.<br/>
   <strong>Senin kodun. Senin makinan. Senin yapay zekan.</strong>
 </p>
+
+## 📧 İletişim
+
+**Geliştirici:** Sudem Kırmız
+
+**Takım:** YZT | MEVZUU
+
+**GitHub:** [https://github.com/sudemkirmiz](https://github.com/sudemkirmiz)
